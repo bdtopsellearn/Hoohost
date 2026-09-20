@@ -146,11 +146,11 @@ try:
 except (TypeError, ValueError):
     KEEPALIVE_PORT = 10000
 
-BRAND       = "ᶜᴵᴾᴴᴱᴿ ᵀᴱᶜʜ ᴴᴼˢᵀ"
+BRAND       = "⟦𝗖𝗢𝗗𝗜𝗡𝗚_𝗝𝗔𝗠𝗘𝗦⟧"
 BRAND_VER   = "v2.1"
 BRAND_TAG   = f"{BRAND} {BRAND_VER}"
-SUPPORT_USR = "@lord_ciph3r"
-UPDATE_CH   = "https://t.me/cipher_tech_team"
+SUPPORT_USR = "CODINGJAMES_X"
+UPDATE_CH   = "https://t.me/coderjamesx"
 FOOTER      = f"\n\n<blockquote>{BRAND_TAG}</blockquote>"
 
 # AI Circuit Breaker State
@@ -1193,11 +1193,11 @@ def _format_cpu_limit(cpu_pct: int) -> str:
 
 
 PAYMENT_METHODS: Dict[str, Dict[str, Any]] = {
-    "bkash":       {"name": "bKash",       "number": "01306633616",         "type": "Send Money",       "tag": "[B]"},
-    "nagad":       {"name": "Nagad",       "number": "01306633616",         "type": "Send Money",       "tag": "[N]"},
-    "rocket":      {"name": "Rocket",      "number": "01306633616",         "type": "Send Money",       "tag": "[R]"},
-    "upay":        {"name": "Upay",        "number": "01306633616",         "type": "Send Money",       "tag": "[U]"},
-    "binance":     {"name": "Binance Pay", "number": "Binance ID 758637628","type": "USDT (BEP20/TRC20)","tag": "[BP]"},
+    "bkash":       {"name": "bKash",       "number": "01619789895",         "type": "Send Money",       "tag": "[B]"},
+    "nagad":       {"name": "Nagad",       "number": "01619789895",         "type": "Send Money",       "tag": "[N]"},
+    "rocket":      {"name": "Rocket",      "number": "01619789895",         "type": "Send Money",       "tag": "[R]"},
+    "upay":        {"name": "Upay",        "number": "01619789895",         "type": "Send Money",       "tag": "[U]"},
+    "binance":     {"name": "Binance Pay", "number": "Binance ID 1210169527","type": "USDT (BEP20/TRC20)","tag": "[BP]"},
     "trustwallet": {"name": "Trust Wallet","number": "Set wallet address in admin panel","type": "USDT (BEP20/TRC20)","tag": "[TW]"},
     "bank":        {"name": "Bank",        "number": "Contact admin",       "type": "Bank Transfer",    "tag": "[BK]"},
 }
