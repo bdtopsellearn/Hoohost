@@ -1,0 +1,8 @@
+{
+  "name": "HooHost - Bot & Cloud Hosting Dashboard",
+  "description": "Enterprise cloud and Telegram bot hosting control panel featuring multi-node management, automated crypto and mobile payments, container sandbox runtime, security scanner, and encrypted vault synchronization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
